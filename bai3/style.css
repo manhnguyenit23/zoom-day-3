@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.card {
+    width: 50%;
+    max-width: 400px;
+    padding: 1.5em;
+}
+
+.price {
+    font-size: 1.25rem;
+}
+
+.price span {
+    font-size: 1.5em;
+}
+
+h1 {
+    width: 100vw;
+    height: 20vh;
+}
+
+.card {
+    color: blue;
+}
+
+.card a {
+    color: inherit;
+}
+
+.card h3 {
+    color: initial;
+}
+
+/* 
+3.Ban đầu .card đặt màu xanh dương. h3 vốn có thể kế thừa màu từ cha. Nhưng initial yêu cầu trình duyệt sử dụng giá trị ban đầu của thuộc tính color, thay vì kế thừa màu xanh. 
+*/
+
+ul {
+    list-style-type: initial;
+}
+
+/* 
+4. Sau khi đã xóa mặc định ở yêu cầu 1, cho danh sách ul hiển thị lại dấu chấm đầu dòng bằng cách đưa kiểu đánh dấu về giá trị gốc.
+Kết quả: Danh sách hiển thị lại dấu chấm tròn mặc định.
+*/
